@@ -1,26 +1,26 @@
 @font-face{
     font-family:'kai';
-    src:url(/Fonts/MaShanZheng-Regular.ttf);
+    src:url(../Fonts/MaShanZheng-Regular.ttf);
     }
 @font-face{
     font-family:'title';
-    src:url(/Fonts/GreatVibes-Regular.ttf);
+    src:url(../Fonts/GreatVibes-Regular.ttf);
     }
 @font-face{
     font-family:'kaitext';
-    src:url(/Fonts/GideonRoman-Regular.ttf);
+    src:url(../Fonts/GideonRoman-Regular.ttf);
     }
 @font-face{
     font-family:'xing';
-    src:url(/Fonts/ZhiMangXing-Regular.ttf);
+    src:url(../Fonts/ZhiMangXing-Regular.ttf);
     }
 @font-face{
     font-family:'li';
-    src:url(/Fonts/ZCOOLQingKeHuangYou-Regular.ttf);
+    src:url(../Fonts/ZCOOLQingKeHuangYou-Regular.ttf);
     }
 @font-face{
     font-family:'cao';
-    src:url(/Fonts/LiuJianMaoCao-Regular.ttf);
+    src:url(../Fonts/LiuJianMaoCao-Regular.ttf);
     }
 
 body{

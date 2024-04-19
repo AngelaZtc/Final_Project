@@ -1,19 +1,19 @@
-/* @font-face{
+@font-face{
     font-family:'title'; 
     font: "GreatVibes-Regular";
-    src:url(Fonts/GreatVibes-Regular.ttf);
-    } */
-/* 
+    src:url(../Fonts/GreatVibes-Regular.ttf);
+    }
+
 @font-face{
     font-family:'text';
-    src:url(Fonts/GideonRoman-Regular.ttf);
-    } */
+    src:url(../Fonts/GideonRoman-Regular.ttf);
+    }
 
 .skip{
     position:absolute;
 left: -1000px;
 z-index: 1000;
-font-family: "Gideon Roman", serif;
+font-family: "text";
 color: black;
 text-decoration: none;
 padding: 5px 10px;
@@ -32,7 +32,7 @@ border: 1px solid black;
     border-color: darkred;
     text-decoration: none;
     transition: 0.5s;
-    font-family: "Gideon Roman", serif;
+    font-family: "text";
 }
 
 .explore{    
@@ -54,7 +54,7 @@ border: 1px solid black;
     color: white;
 }
 .title {
-    font-family: "Great Vibes", cursive;
+    font-family: "title";
     font-size: 50pt;
     font-weight: 900;
    text-align: center;
@@ -63,14 +63,14 @@ border: 1px solid black;
 }
 
 .subtitle {
-    font-family: "Gideon Roman", serif;
+    font-family: "text";
     font-weight: 400;
     font-size: 15pt;
     margin: auto;
     text-align: center;
 }
 #intro {
-    font-family: "Gideon Roman", serif;
+    font-family: "text";
     font-weight: 400;
     font-size: 15pt;
     line-height: 22pt;

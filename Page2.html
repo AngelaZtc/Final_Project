@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/Page2.css">
+  <link rel="stylesheet" href="https://use.typekit.net/llo2skn.css">
+<title>Intro Page</title>
+
+    </head>
+    <body>
+
+    <a href ="#main" class="skip">Skip to Main Content</a>
+
+   <main id="main">
+    <video autoplay muted loop id="myVideo" class=video>
+        <source src="media/smoke.mp4" type="video/mp4">
+       </video>
+    <h1>Main Heading</h1>
+    <div class="navbar">
+     <div class="title"><a href="homepage.html">Words in Ink</a>
+    </div>
+    <div class="navbar-nav">
+        <div class="navlink1" ><a href="#text1">楷<br>Kai</a>
+        </div>
+        <div class="navlink2" ><a href="#text2">行<br>Xing</a>
+        </div>
+        <div class="navlink3"><a href="#text3">隶<br>Li</a>
+        </div>
+        <div class="navlink4"><a href="#text4">草<br>Cao</a>
+        </div>
+     </div>
+    </div>
+
+    <!-- <div id="dots1">&#8226; &#8226; &#8226;</div>
+    <div id="dots2">&#8226; &#8226; &#8226;</div>
+    <div id="dots3">&#8226; &#8226; &#8226;</div> -->
+
+
+<div class="history">History of Chinese Calligraphy</div>
+    <div class="text"data-start="opacity:1" data-200="opacity:0">Chinese calligraphy is the writing of Chinese characters as an art form, combining purely visual art and interpretation of the literary meaning. This type of expression has been widely practiced in China and has been generally held in high esteem across East Asia. Chinese calligraphy and ink and wash painting are closely related: they are accomplished using similar tools and techniques, and have a long history of shared artistry. Distinguishing features of Chinese painting and calligraphy include an emphasis on motion charged with dynamic life. According to Stanley-Baker, "Calligraphy is sheer life experienced through energy in motion that is registered as traces on silk or paper, with time and rhythm in shifting space its main ingredients.</div>
+
+ <div class="feng" data-start="left:-10vw" data-400="left:10vw"><img src="image/feng.png" alt="feng"></div>
+<div class="lin" data-start="left:100vw" data-600="left:60vw"><img src="image/lin.png" alt="lin"></div> 
+<div class="qi" data-start="left:-10vw" data-1000="left:10vw"><img src="image/qi.png" alt="qi"></div>
+<div class="long" data-start="left:100vw" data-1200="left:60vw"><img src="image/long.png" alt="long"></div>
+
+    <div class="grid">
+    <div class="text1" id="text1" data-start="opacity:0" data-600="opacity:1">Regular script (traditional Chinese: 楷書; simplified Chinese: 楷书; pinyin: kǎishū; Hepburn: kaisho), also called 正楷 (pinyin: zhèngkǎi), 真書 (zhēnshū), 楷體 (kǎitǐ) and 正書 (zhèngshū), is the newest of the Chinese script styles (popularized from the Cao Wei dynasty c. 200 AD and maturing stylistically around the 7th century).
+
+    <div class="morebutton1" data-start="opacity:0" data-600="opacity:1"><a href="Page3.html">MORE</a></div>
+</div>
+
+        <div class="text2" id="text2" data-start="opacity:0" data-800="opacity:1">Semi-cursive script, also known as running hand script, is a style of calligraphy which emerged in China during the Han dynasty (3rd century BC – 3rd century AD). The style is used to write Chinese characters and is abbreviated slightly where a character’s strokes are permitted to be visibly connected as the writer writes, but not to the extent of the cursive style.
+
+    <div class="morebutton2" data-start="opacity:0" data-800="opacity:1"><a href="XingshuPage.html">MORE</a></div>
+</div>
+     <div class="text3" id="text3" data-start="opacity:0" data-1000="opacity:1">The clerical script, sometimes also chancery script, is a style of Chinese writing which evolved from the late Warring States period to the Qin dynasty, matured and became dominant in the Han dynasty, and remained in largely active use through the Wei-Jin periods. 
+    <div class="morebutton3" data-start="opacity:0" data-1000="opacity:1"><a href="LishuPage.html">MORE</a></div>
+</div>
+
+    <div class="text4" id="text4" data-start="opacity:0" data-1200="opacity:1">Cursive script (Chinese: 草書; pinyin: cǎoshū), often mistranslated as grass script, is a script style used in Chinese an2d East Asian calligraphy. Cursive script is faster to write than other styles, but can be difficult to read for those unfamiliar with it.
+    <div class="morebutton4" data-start="opacity:0" data-1200="opacity:1"><a href="CaoshuPage.html">MORE</a>
+    </div>
+</div>
+
+
+</div>
+<footer>
+  <a class="top" href="#main">Back to top</a>
+</footer>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+ $(".history").hide().fadeIn(1000);
+                    });
+
+        </script>
+<script  src="scripts/skrollr.min.js"></script>
+<script >
+skrollr.init({
+	forceHeight: false,
+	easing: {
+	vibrate: function(p) {
+	return Math.sin(p * 10 * Math.PI);
+	}
+		}
+	});
+	</script>
+</body>
+
+
+
+</html>

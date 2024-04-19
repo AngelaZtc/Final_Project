@@ -1,0 +1,132 @@
+/* @font-face{
+    font-family:'title'; 
+    font: "GreatVibes-Regular";
+    src:url(Fonts/GreatVibes-Regular.ttf);
+    } */
+/* 
+@font-face{
+    font-family:'text';
+    src:url(Fonts/GideonRoman-Regular.ttf);
+    } */
+
+.skip{
+    position:absolute;
+left: -1000px;
+z-index: 1000;
+font-family: "Gideon Roman", serif;
+color: black;
+text-decoration: none;
+padding: 5px 10px;
+border: 1px solid black;
+}
+.skip:focus{
+    left: 10px;
+}
+.explore a {
+    position: relative;
+    color: darkred;
+    font-size: 15pt;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: darkred;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: "Gideon Roman", serif;
+}
+
+.explore{    
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;    
+}
+
+#myVideo {
+    position: fixed;
+    right: -33vw;
+    bottom: -15vw;
+  opacity: 1;
+  z-index: -1;
+  }
+.explore a:hover {
+    background-color: darkred;
+    color: white;
+}
+.title {
+    font-family: "Great Vibes", cursive;
+    font-size: 50pt;
+    font-weight: 900;
+   text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.subtitle {
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-size: 15pt;
+    margin: auto;
+    text-align: center;
+}
+#intro {
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-size: 15pt;
+    line-height: 22pt;
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#main {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10% 5% 5% 5%;
+    padding: 3%;
+}
+
+@media screen and (min-width: 1024px) {
+    #main {
+        margin-top: 3%;
+        padding:unset ;
+        background-color: unset
+    }
+    body {
+        margin-top: 5%;
+    }
+    .title {
+        font-family: "Great Vibes", cursive;
+        font-size: 50pt;
+        font-weight: 900;
+        margin: 0 10px 10px 0;
+        text-align: left;
+    }
+
+    .subtitle {
+        font-family: "Gideon Roman", serif;
+        font-weight: 400;
+        font-size: 15pt;
+        margin: 0 0 2%;
+        text-align: left;
+    }
+
+    #intro {
+        font-family: "Gideon Roman", serif;
+        font-weight: 400;
+        font-size: 15pt;
+        line-height: 22pt;
+        width: 39%;
+        text-align: left;
+        margin: 0;
+    }
+.explore {
+    text-align: left;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+}
+

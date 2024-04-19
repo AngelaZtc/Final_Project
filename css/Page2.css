@@ -1,0 +1,355 @@
+@font-face{
+    font-family:'kai';
+    src:url(../Fonts/NotoSerifDisplay-VariableFont_wdth,wght.ttf);
+    }
+@font-face{
+    font-family:'xing';
+    src:url(../Fonts/ZhiMangXing-Regular.ttf);
+    }
+@font-face{
+    font-family:'li';
+    src:url(../Fonts/ZCOOLQingKeHuangYou-Regular.ttf);
+    }
+@font-face{
+    font-family:'cao';
+    src:url(../Fonts/LiuJianMaoCao-Regular.ttf);
+    }
+
+@font-face{
+    font-family:'history';
+    src:url(../Fonts/GideonRoman-Regular.ttf);
+    }
+
+@font-face{
+    font-family:'title';
+    src:url(../Fonts/GreatVibes-Regular.ttf);
+    }
+
+@font-face{
+    font-family:'navkai';
+    src:url(../Fonts/MaShanZheng-Regular.ttf);
+    }
+
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)) fixed;
+}
+.video {
+ display: none;
+  }
+h1 {
+    position: fixed;
+}
+.skip{
+position:absolute;
+left: -1000px;
+z-index: 1000;
+font-family: "Gideon Roman", serif;
+color: white;
+text-decoration: none;
+padding: 5px 10px;
+border: 1px solid darkred;
+}
+.skip:focus{
+    left: 10px;
+}
+.skip a:hover{  
+    background-color: darkred;
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    position: fixed;
+    top: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+    font-family:'title';
+    font-size: 20pt;
+    font-weight: 500;
+}
+.title a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.title a:hover{
+    font-size: 25pt;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction:row;
+    flex-basis: auto;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 8vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.navbar-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+    font-weight: 500;
+    transition: 0.5s;
+    z-index: 100;
+
+}
+.navbar-nav a:hover{
+    font-size: 18pt;
+}
+.navbar{
+    width: 100%;
+    height: 17vh;
+    background-color: black;
+    position: fixed;
+    opacity: 85%;
+    border-bottom: 1px solid darkred;
+    z-index:800;
+}
+.navlink1 a{
+     font-family:'navkai';
+   
+}
+.navlink2 a{
+    text-decoration: none;
+     font-family:'xing';
+
+}
+.navlink3 a{
+     font-family:'li';
+ }
+
+.navlink4 {
+     font-family:'cao';
+}
+
+.history{
+    position: absolute;
+    font-size: 15pt;
+    font-weight: 800;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index:1;
+    font-family: "history";
+    margin-top: 20vh;
+        }
+.text {
+    position: absolute;
+    font-size: 10pt;
+    font-weight: 500;
+    color: white;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1;
+    font-family: "history";
+    margin-top: 28vh;
+    line-height: 30px;
+        }
+
+
+
+.morebutton1, .morebutton2, .morebutton3, .morebutton4 {
+    color: darkred;
+    font-size: 15pt;
+    padding: 10px 30px;
+    background-color: white;
+    border-color: darkred;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+.morebutton1:hover,
+.morebutton2:hover,
+.morebutton3:hover,
+.morebutton4:hover {
+    text-decoration: none !important;
+    background-color: darkred !important;
+}
+.morebutton1 a, .morebutton2 a, .morebutton3 a, .morebutton4 a{
+    text-decoration: none;
+    color: darkred;
+}
+.morebutton1:hover a,
+.morebutton2:hover a,
+.morebutton3:hover a,
+.morebutton4:hover a {
+    color: white;
+}
+
+
+img {
+    display: none;
+}
+    .grid {
+   transform: unset;
+   display: none
+    }
+
+.grid{
+        color: white;
+        font-family: "history";
+        line-height: 25pt;
+        font-size: 12pt;
+        z-index: -1;
+        position: relative;
+        float:inline-start;
+        }
+    .text1 {
+        grid-column-start: 1 ; 
+    }
+    .text2 {
+        grid-column-start: 2;
+    }
+    .text3 {
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+    .text4 {
+        grid-row-start: 4;
+        grid-column-start: 1;
+    }
+
+.top {
+    position:fixed;
+bottom: 10px;
+right: 10px;
+    z-index: 0;
+    opacity: 0.8;
+font-family: "history";
+    font-size: 15pt;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    z-index: 100;
+}
+.top:hover{
+    background-color: darkred;
+}
+/* Breakpoint */
+@media screen and (min-width: 700px) {
+    .history{
+        font-size: 20pt;
+        color: white;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index:1;
+        font-family: "history";
+        margin-top: 20vh;
+            }
+    .text {
+        font-size: 13pt;
+        font-weight: 800;
+        margin-top: 28vh;
+        line-height: 35px;
+            }
+    
+.grid{
+    display: inline-block;
+    width: 80%;
+    left: 50%;
+    top: 85vh;
+    font-size: 15pt;
+    transform: translateX(-50%);
+    z-index: -1
+    }
+
+}
+
+
+/* Breakpoint */
+@media screen and (min-width: 1100px) {
+#myVideo {
+    display: unset;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.7;
+    z-index: -10;}
+
+img{
+    display: unset;
+  max-width: 100%;
+    max-height: 100%;
+    opacity: .3;
+    z-index: -10;
+    float:inline-start;
+}
+.feng{
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+}
+.lin{
+    position: absolute;
+    top: 130vh;
+    right: 50%;
+    width: 300px;
+    height: 300px;
+}
+.qi{
+    position: absolute;
+    top: 180vh;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    z-index: -10;
+}
+.long{
+    position: absolute;
+    top: 215vh;
+    right: 50%;
+    width: 300px;
+    height: 300px;
+}
+}
+
+.grid{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+    width: 80%;
+    left: 50%;
+    top: 85vh;
+    transform: translateX(-50%);
+    z-index: -1
+    }
+.text1 {
+    grid-column-start: 2 ; 
+}
+.text2 {
+    grid-column-start: 1;
+}
+.text3 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.text4 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+
+
+
+@keyframes 
+opacity{
+    0%{opacity:0}
+    100%{opacity: 1}
+}

@@ -1,0 +1,227 @@
+@font-face{
+    font-family:'kai';
+    src:url(/Fonts/MaShanZheng-Regular.ttf);
+    }
+@font-face{
+    font-family:'title';
+    src:url(/Fonts/GreatVibes-Regular.ttf);
+    }
+@font-face{
+    font-family:'kaitext';
+    src:url(/Fonts/GideonRoman-Regular.ttf);
+    }
+@font-face{
+    font-family:'xing';
+    src:url(/Fonts/ZhiMangXing-Regular.ttf);
+    }
+@font-face{
+    font-family:'li';
+    src:url(/Fonts/ZCOOLQingKeHuangYou-Regular.ttf);
+    }
+@font-face{
+    font-family:'cao';
+    src:url(/Fonts/LiuJianMaoCao-Regular.ttf);
+    }
+
+body{
+    overflow-x: hidden;
+    margin: auto;}
+h1 {
+    position: fixed;
+   opacity: 0;
+}
+.backimg{
+    position:absolute;
+    opacity: .5;
+    top: -90%
+        }
+.skip{
+position:absolute;
+left: -1000px;
+z-index: 1000;
+font-family: "Gideon Roman", serif;
+color:darkred;
+text-decoration: none;
+padding: 5px 10px;
+border: 1px solid black;
+}
+.skip:focus{
+    left: 10px;
+}
+.skip:hover{  
+        background-color:white !important;
+        text-decoration: none !important;
+        color: darkred !important;
+        }
+
+.title{
+    position: fixed;
+    top: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+    font-family:'title';
+    font-size: 20pt;
+    font-weight: 500;
+        }
+.title a{
+    text-decoration: none;
+    color: white !important;
+    transition: 0.5s;
+        }
+.title a:hover{
+    font-size: 25pt;
+    color: white !important;
+        }
+
+.navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-basis: auto !important;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 8vh;
+    width: 100%;
+    position: fixed !important;
+    z-index: 100;
+        }
+.navbar-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+    font-weight: 500;
+    transition: 0.5s;
+    z-index: 100;
+        }
+.navbar-nav a:hover{
+    font-size: 18pt;
+    color: white !important;
+        }
+.navbar{
+    width: 100%;
+    height: 17vh;
+    background-color: black !important;
+    position: fixed !important;
+    opacity: 85%;
+    border-bottom: 1px solid darkred;
+    z-index:800;
+        }
+.navlink1 a{
+    font-family:'kai';
+        }
+.navlink2 a{
+    text-decoration: none;
+    font-family:'xing';
+        }
+.navlink3 a{
+ font-family:'li';
+         }
+.navlink4 {
+font-family:'cao';
+        }
+
+
+.back {position: absolute;
+top:20vh;
+left: 1vw;
+font-family: "kaitext";
+font-size: 15pt;
+z-index: 1;
+
+}
+.back a{
+    text-decoration: none;
+    color:darkred;
+    transition: 0.5s;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.back a:hover{
+    text-decoration: none;
+    background-color: darkred;
+    color:white;
+}
+
+img{max-width: 100%;
+max-height: 100%;
+z-index: 1;
+
+}
+
+.li{position:absolute;
+top: 20vh;
+left: 0;
+right: 0;
+margin: auto;
+color: black;
+opacity: .15;
+font-size: 270pt;
+z-index: 1;
+font-family: "li";
+animation-duration: 5s;
+animation-name: opacity
+}
+
+
+
+#demo{z-index: 1;
+    top:40vw}
+
+.lishu{font-size: 40pt;
+    position: relative;
+    top:25vh;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-weight: 800;
+    z-index: 1;
+    font-family: "li"
+}
+
+.text{position: relative;
+top: 25vh;
+width:80%;
+left: 0;
+right: 0;
+margin: auto;
+line-height: 23pt;
+font-family:'kaitext';
+font-weight: 500}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    display: none;
+}
+
+@keyframes 
+opacity{
+    0%{opacity:0}
+    100%{opacity: 0.15}}
+
+@media screen and (min-width: 1100px) {
+    .text{
+        top: 30vh;
+        width:65%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        line-height: 25pt;
+        font-family:'kaitext';
+        font-weight: 500}
+
+#demo{z-index: 1;
+    top:25vw}
+
+.xing{position:absolute;
+        top: 8vh;
+        left: 1%;
+        color: black;
+        opacity: .15;
+        font-size: 270pt;
+        z-index: 1;
+        font-family: "xing";
+        animation-duration: 4s;
+        animation-name: opacity
+        }
+}

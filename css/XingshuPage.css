@@ -39,7 +39,7 @@ h1 {
 position:absolute;
 left: -1000px;
 z-index: 1000;
-font-family: "Gideon Roman", serif;
+font-family: "text";
 color:darkred;
 text-decoration: none;
 padding: 5px 10px;

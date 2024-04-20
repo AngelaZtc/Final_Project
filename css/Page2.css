@@ -240,6 +240,19 @@ font-family: "history";
 .top:hover{
     background-color: darkred;
 }
+
+@keyframes 
+opacity{
+    0%{opacity:0}
+    100%{opacity: 1}
+}
+/* Breakpoint */
+@media (prefers-reduced-motion: reduce) {
+#myVideo {
+    display: none;
+    }
+}
+
 /* Breakpoint */
 @media screen and (min-width: 700px) {
     .history{
@@ -347,9 +360,3 @@ img{
 }
 
 
-
-@keyframes 
-opacity{
-    0%{opacity:0}
-    100%{opacity: 1}
-}

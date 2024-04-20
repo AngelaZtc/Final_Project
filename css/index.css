@@ -88,6 +88,12 @@ border: 1px solid black;
     padding: 3%;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    #myVideo {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     #main {
         margin-top: 3%;
